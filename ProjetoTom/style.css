@@ -1,0 +1,363 @@
+* {
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+li {
+	list-style-type: none;
+}
+
+.container {
+	background: linear-gradient(90deg, #FFE7D1 0%, #FFF2E5 100%);
+	width: 90rem;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.header {
+	width: 100%;
+	height: 6.25rem;
+	padding-inline: 7rem;
+	border: 1px solid black;
+}
+
+.nav_bar {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.itens {
+	font-size: 1.25rem;
+	font-weight: 500;
+	column-gap: 3.75rem;
+	display: flex;
+	align-items: center;
+}
+
+.tom {
+	font-size: 2.5rem;
+	font-weight: 900;
+}
+
+.inscrever {
+	width: 12.5rem;
+	height: 3rem;
+	background-color: #ED4D1B;
+	box-shadow: 4px 4px 0px 0px #1E1E1E;
+	border: 2px solid #000;
+}
+
+.se_insc {
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+
+.hero {
+	width: 100%;
+	height: 47.25rem;
+	display: flex;
+	justify-content: space-between;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.hero_text {
+	position: relative;
+	top: 5.5rem;
+	left: 5.63rem;
+}
+
+.img_hero {
+	width: 52.625rem;
+	height: 35.0625rem;
+}
+
+.crie {
+	width: 29rem;
+	font-size: 4rem;
+	font-weight: 900;
+	line-height: 105%;
+	margin-bottom: 2rem;
+}
+
+.impactante {
+	color: #ED4D1B;
+}
+
+.lorem {
+	width: 23rem;
+	font-size: 1.5rem;
+	font-weight: 500;
+	margin-bottom: 1rem;
+}
+
+.comece {
+	width: 14rem;
+	height: 3rem;
+	background-color: #ED4D1B;
+	box-shadow: 4px 4px 0px 0px #1E1E1E;
+	border: 2px solid #000;
+}
+
+.come {
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+
+.riscos {
+	position: relative;
+	top: -304px;
+	left: 163px;
+}
+
+.arrow {
+	position: relative;
+	top: 94px;
+	left: -131px;
+}
+
+.sectio {
+	width: 100%;
+	height: 41.6rem;
+	border: 1px solid black;
+}
+
+.cards {
+	width: 71.1rem;
+	height: 20.1rem;
+	position: relative;
+	top: -90px;
+	left: 151.2px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.piano {
+	width: 17rem;
+	height: 19.1rem;
+	background-color: #ED4D1B;
+	box-shadow: 4px 4px 0px 0px #1E1E1E;
+	border: 2px solid #000;
+}
+
+.div_p {
+	margin-top: 1.5rem;
+	margin-left: 2rem;
+}
+
+.div_p h3 {
+	margin-top: 1rem;
+	font-size: 1.25rem;
+	font-weight: 900;
+}
+
+.div_p p {
+	margin-top: 1rem;
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.piano a {
+	position: relative;
+	top: 50px;
+	left: 206px;
+}
+
+.teoria {
+	width: 17rem;
+	height: 19.1rem;
+	position: relative;
+	top: 16px;
+	left: 0px;
+	background-color: #FF9A3C;
+	box-shadow: 4px 4px 0px 0px #1E1E1E;
+	border: 2px solid #000;
+}
+
+.div_t {
+	margin-top: 1.5rem;
+	margin-left: 2rem;
+}
+
+.div_t h3 {
+	margin-top: 1rem;
+	font-size: 1.25rem;
+	font-weight: 900;
+}
+
+.div_t p {
+	margin-top: 1rem;
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.teoria a {
+	position: relative;
+	top: 50px;
+	left: 206px;
+}
+
+.sax {
+	width: 17rem;
+	height: 19.1rem;
+	background-color: #ED4D1B;
+	box-shadow: 4px 4px 0px 0px #1E1E1E;
+	border: 2px solid #000;
+}
+
+.div_s {
+	margin-top: 1.5rem;
+	margin-left: 2rem;
+}
+
+.div_s h3 {
+	margin-top: 1rem;
+	font-size: 1.25rem;
+	font-weight: 900;
+}
+
+.div_s p {
+	margin-top: 1rem;
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.sax a {
+	position: relative;
+	top: 50px;
+	left: 206px;
+}
+
+.bateria {
+	width: 17rem;
+	height: 19.1rem;
+	position: relative;
+	top: 16px;
+	right: 0px;
+	background-color: #FF9A3C;
+	box-shadow: 4px 4px 0px 0px #1E1E1E;
+	border: 2px solid #000;
+}
+
+.div_b {
+	margin-top: 1.5rem;
+	margin-left: 2rem;
+}
+
+.div_b h3 {
+	margin-top: 1rem;
+	font-size: 1.25rem;
+	font-weight: 900;
+}
+
+.div_b p {
+	margin-top: 1rem;
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.bateria a {
+	position: relative;
+	top: 50px;
+	left: 206px;
+}
+
+.e_varios {
+	font-size: 4rem;
+	font-weight: 900;
+	text-align: center;
+}
+
+.varios {
+	color: #ED4D1B;
+}
+
+.conhecer {
+	width: 16rem;
+	height: 3rem;
+	position: relative;
+	top: 50px;
+	left: 592px;
+	background-color: #ED4D1B;
+	box-shadow: 4px 4px 0px 0px #1E1E1E;
+	border: 2px solid #000;
+}
+
+.cursos {
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+
+.rodape {
+	width: 100%;
+	height: 25.1rem;
+	padding-top: 3.94rem;
+	padding-inline: 5.63rem;
+	display: flex;
+	justify-content: space-between;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.logo {
+	width: 8.3rem;
+	height: 4rem;
+	margin-bottom: 2rem;
+}
+
+.lorem_footer {
+	width: 17rem;
+	font-size: 1.25rem;
+	font-weight: 500;
+}
+
+.itens2 {
+	font-size: 1.25rem;
+	font-weight: 500;
+	gap: 2rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.receba {
+	font-size: 1.5rem;
+	font-weight: 500;
+	margin-bottom: 2rem;
+}
+
+.form_footer {
+	display: flex;
+	flex-direction: column;
+}
+
+.input_tom {
+	width: 35rem;
+	height: 3rem;
+	margin-bottom: 2rem;
+	font-size: 1.25rem;
+	box-shadow: 4px 4px 0px 0px #1E1E1E;
+	border: 2px solid #000;
+}
+
+.quero {
+	width: 14rem;
+	height: 3rem;
+	background-color: #ED4D1B;
+	box-shadow: 4px 4px 0px 0px #1E1E1E;
+	border: 2px solid #000;
+}
+
+.receber {
+	font-size: 1.25rem;
+	font-weight: 500;
+}
